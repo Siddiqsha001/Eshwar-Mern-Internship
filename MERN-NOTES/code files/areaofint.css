@@ -1,0 +1,28 @@
+/* Styling for the Area component */
+.Area {
+  padding: 20px;
+  background-color: #f9f9f9; /* Light grey background */
+  border: 1px solid #ddd;    /* Border for better visibility */
+  border-radius: 8px;        /* Rounded corners */
+  max-width: 400px;          /* Limit width of the container */
+  margin: 20px auto;         /* Center the container */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.area-title {
+  font-size: 1.5rem;
+  color: #333; /* Dark text for the title */
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.area-list {
+  list-style-type: square; /* Square bullets */
+  padding-left: 20px;      /* Indent the list items */
+}
+
+.area-list li {
+  font-size: 1rem;
+  color: #555; /* Medium text color for list items */
+  margin-bottom: 8px; /* Space between list items */
+}

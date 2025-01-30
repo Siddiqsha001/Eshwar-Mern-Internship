@@ -1,0 +1,77 @@
+/* Header.css */
+
+/* Styling the header */
+header {
+    position: sticky; /* Keeps the header fixed at the top while scrolling */
+    top: 0;
+    z-index: 1000;
+    background-color: #8da6f8; /* White background */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 10px 0;
+  }
+  
+  /* Container for the header elements */
+  header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Profile picture styling */
+  header img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%; /* Makes the image circular */
+    border: 2px solid #007bff; /* Blue border around the profile picture */
+  }
+  
+  /* Header title (Name) */
+  header h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+    color: #333;
+  }
+  
+  /* Navigation menu styling */
+  header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navigation links */
+  header nav ul li {
+    margin: 0 10px;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: #000; /* Black text color */
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  /* Hover effect for navigation links */
+  header nav ul li a:hover {
+    color: #007bff; /* Blue on hover */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    header .container {
+      flex-direction: column; /* Stack the header items vertically on small screens */
+    }
+  
+    header nav ul {
+      flex-wrap: wrap;
+      justify-content: center; /* Center navigation links */
+    }
+  
+    header nav ul li {
+      margin: 5px 0; /* Add vertical spacing for smaller screens */
+    }
+  }
+  

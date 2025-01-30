@@ -1,0 +1,67 @@
+/* Header Container */
+.header-container {
+  background-color: #1e1e2f;
+  color: white;
+  padding: 20px;
+}
+
+/* Header Content */
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+/* Profile Picture */
+.header-profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid white;
+}
+
+/* Header Title and Description */
+.header-title {
+  font-family: 'Georgia, serif';
+  font-size: 28px;
+  text-align: left;
+}
+
+.header-description {
+  font-family: 'Georgia, serif';
+  font-size: 18px;
+  text-align: left;
+  line-height: 1.5;
+}
+
+/* Navigation Bar */
+.header-nav {
+  background-color: #2c2c40;
+  padding: 10px 20px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #f39c12; /* Highlight color on hover */
+}
